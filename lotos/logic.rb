@@ -1,14 +1,20 @@
 require "cgi"
+<<<<<<< HEAD
 require ''
+=======
+>>>>>>> 1e1570742bab3027232c490d016e61e06ad09012
 
 
 module Lotos
 
   class Logic
 
+<<<<<<< HEAD
 
   def initalize
   end
+=======
+>>>>>>> 1e1570742bab3027232c490d016e61e06ad09012
   def self.routing()
     cookie = CGI::Cookie.new
     path = cookie.path
@@ -29,8 +35,11 @@ module Lotos
 
     class  Page
       def self.top
+<<<<<<< HEAD
         top =IO.open()
 
+=======
+>>>>>>> 1e1570742bab3027232c490d016e61e06ad09012
       end
 
       def self.new
